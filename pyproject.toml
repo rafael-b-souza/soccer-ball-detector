@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "soccer-ball-detector"
+version = "0.1.0"
+description = "Detecção e rastreamento de bola de futebol com YOLO11, pré-processamento adaptativo e otimização por Algoritmo Genético"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Rafael Souza"}
+]
+dependencies = [
+    "opencv-python>=4.8",
+    "numpy>=1.24",
+    "torch>=2.0",
+    "ultralytics>=8.3",
+    "deap>=1.4",
+    "pandas>=2.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

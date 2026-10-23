@@ -1,0 +1,1 @@
+{"preproc": "gamma", "remove_bg": true, "lower_blue": 106, "upper_blue": 156, "clahe_clip": 2.83831953960582, "tile_size": [16, 16], "gamma_value": 1.2113319449228055, "roi_scale": 4.27281176589931, "training_time": 77.02761507034302, "mAP50": 0.4696594475947594, "fps": 61.80908558319589, "score": 0.6287237881126031}
